@@ -156,6 +156,12 @@
 				<Loader platformHome="C:\opt\HYBRISCOMM6600P_2-70003031\hybris\bin\platform" className="de.hybris.tomcat.HybrisWebappLoader" deployName="default" />
 			</Context>
 
+			<!-- 'concerttours' extension's context for tenant 'master' -->
+			<Context path="/concerttours" docBase="C:\opt\HYBRISCOMM6600P_2-70003031\hybris\bin\custom\concerttours/web/webroot" >
+				<Manager pathname="" />
+				<Loader platformHome="C:\opt\HYBRISCOMM6600P_2-70003031\hybris\bin\platform" className="de.hybris.tomcat.HybrisWebappLoader" deployName="default" />
+			</Context>
+
 
       </Host>
 
